@@ -1,6 +1,6 @@
 - name: Pushing
   docker_image:
-   name: mylc
+   name: livraison
    repository: arwa123/livraison
    tag: latest
    push: yes
