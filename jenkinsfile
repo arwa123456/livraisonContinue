@@ -1,0 +1,22 @@
+pipeline
+{
+ agent any
+ stages {
+stage('docker')
+ {
+ steps{
+ script{
+ sh " ansible-playbook -vvvv /var/lib/jenkins/workspace/livraison/ansible/docker.yml -i ansible/hosts.yml "
+ }
+ }
+ }
+ /*stage('build')
+ {
+ steps{
+ script{
+ sh " ansible-playbook /var/lib/jenkins/workspace/livraison/ansible/build.yml -i ansible/hosts.yml "
+ }
+ }
+ }*/
+ }
+ }
