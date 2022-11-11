@@ -2,9 +2,9 @@
   docker_image:
    name: test
    repository: arwa123/livraison
-   source: build  # <-- add
-      build:         # <-- add
-        path: /home/user/src/something  # <-- move under build:
+   source: build
+     build:         
+      path: /var/lib/jenkins/workspace/livraison 
       force: yes
    tag: latest
    force: yes
