@@ -1,6 +1,6 @@
 - name: Pushing
   docker_image:
-   name: livraison
+   name: test
    repository: arwa123/livraison
    tag: latest
    force: yes
