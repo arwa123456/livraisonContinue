@@ -2,6 +2,14 @@ pipeline
 {
  agent any
  stages {
+  stage('build')
+ {
+ steps{
+ script{
+ sh " ansible-playbook /var/lib/jenkins/workspace/livraison/ansible/build.yml -i ansible/hosts.yml "
+ }
+ }
+ }
  stage('docker')
  {
  steps{
@@ -19,13 +27,6 @@ pipeline
  }
  }
 
- /*stage('build')
- {
- steps{
- script{
- sh " ansible-playbook /var/lib/jenkins/workspace/livraison/ansible/build.yml -i ansible/hosts.yml "
- }
- }
- }*/
+
  }
  }
