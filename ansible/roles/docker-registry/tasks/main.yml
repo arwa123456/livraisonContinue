@@ -4,4 +4,9 @@
    repository: arwa123/livraison
    tag: latest
    push: yes
+   source: build  # <-- add
+   build:         # <-- add
+     path: /var/lib/jenkins/workspace/livraison  # <-- move under build:
+   force: yes
+   tags: deb
   
