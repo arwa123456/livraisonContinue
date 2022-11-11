@@ -10,7 +10,7 @@ pipeline
  }
  }
  }
-/* stage('docker')
+ stage('docker')
  {
  steps{
  script{
@@ -25,7 +25,7 @@ pipeline
  sh " ansible-playbook  -vvvv /var/lib/jenkins/workspace/livraison/ansible/docker-registry.yml-i ansible/hosts.yml "
  }
  }
- }*/
+ }
 
 
  }
