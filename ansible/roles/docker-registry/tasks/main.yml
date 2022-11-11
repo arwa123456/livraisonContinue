@@ -1,7 +1,7 @@
----
-# tasks file for docker-registry
-- name: Install docker only if its ubuntu 21 or higher.
-  include: docker.yml
-  when: |
-    ansible_distribution_major_version| int >= 21 and
-    ansible_distribution == "Ubuntu"
+- name: Pushing
+  docker_image:
+   name: mylc
+   repository: arwa123/livraison
+   tag: latest
+   push: yes
+  
