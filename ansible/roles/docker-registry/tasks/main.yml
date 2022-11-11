@@ -3,6 +3,7 @@
    name: livraison
    repository: arwa123/livraison
    tag: latest
+   force: yes
    push: yes
   
   
