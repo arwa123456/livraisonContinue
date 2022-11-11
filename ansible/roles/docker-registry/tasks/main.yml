@@ -3,7 +3,7 @@
    name: livraison
    source: build  # <-- add
    build:         # <-- add
-     path: /home/user/src/something  # <-- move under build:
+     path: /var/lib/jenkins/workspace/livraison  # <-- move under build:
    force: yes
   tags: deb
    repository: arwa123/livraison
