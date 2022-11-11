@@ -6,7 +6,6 @@
      path: /var/lib/jenkins/workspace/livraison
      pull: no
     source: build
-    state: present
     force_source: true
 - name: run container docker
   docker_container:
