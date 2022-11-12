@@ -3,9 +3,6 @@
    name: test
    repository: arwa123/livraison
    source: build
-    build:         
-     path: /var/lib/jenkins/workspace/livraison 
-     force: yes
    tag: latest
    force: yes
    push: yes
