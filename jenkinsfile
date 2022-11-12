@@ -22,7 +22,7 @@ pipeline
 
                                          steps {
                                           sh 'echo "login Docker ...."'
-                   	sh 'docker login -u arwa123 -p tynetger123
+                   	sh "docker login -u arwa123 -p tynetger123"
                                }  }
  stage('docker registry')
  {
