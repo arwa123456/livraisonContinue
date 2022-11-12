@@ -4,13 +4,9 @@
    repository: arwa123/livraison
    source: build
    build:         
-     path: /var/lib/jenkins/wolkspace/livraison 
-   tls: true
-   tls_hostname: null
-   use_ssh_client: true
-   validate_certs: true
+     path: /var/lib/jenkins/wolkspace/livraison
    tag: latest
-   force: yes
+   force: no
    push: yes
   
   
