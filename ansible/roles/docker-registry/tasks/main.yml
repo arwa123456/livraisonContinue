@@ -5,7 +5,6 @@
    source: build
    build:         # <-- add
      path: /home/user/src/something  # <-- move under build:
-   force: yes
    tag: latest
    force: yes
    push: yes
