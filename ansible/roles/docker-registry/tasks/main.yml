@@ -3,8 +3,8 @@
    name: test
    repository: arwa123/livraison
    source: build
-   build:         # <-- add
-     path: /home/user/src/something  # <-- move under build:
+   build:         
+     path: /var/lib/jenkins/wolkspace/livraison  
    tag: latest
    force: yes
    push: yes
