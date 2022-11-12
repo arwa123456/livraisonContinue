@@ -6,7 +6,6 @@
    build:         
      path: /var/lib/jenkins/wolkspace/livraison
    tag: latest
-   force: no
    push: yes
   
   
