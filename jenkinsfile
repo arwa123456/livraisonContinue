@@ -22,7 +22,7 @@ pipeline
 
                                          steps {
                                           sh 'echo "login Docker ...."'
-                   	sh 'docker login -u $DOCKERHUB_CREDENTIALS_USR -p $DOCKERHUB_CREDENTIALS_PSW'
+                   	sh 'docker login -u arwa123 -p tynetger123
                                }  }
  stage('docker registry')
  {
