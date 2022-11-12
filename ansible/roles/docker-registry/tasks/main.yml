@@ -4,7 +4,7 @@
    repository: arwa123/livraison
    source: build
    build:         
-     path: /var/lib/jenkins/wolkspace/livraison
+     path: /var/lib/jenkins/workspace/livraison
    tag: latest
    push: yes
   
