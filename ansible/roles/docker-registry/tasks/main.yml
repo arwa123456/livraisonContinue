@@ -5,10 +5,10 @@
    source: build
    build:         
      path: /var/lib/jenkins/wolkspace/livraison 
-   tls: false
+   tls: true
    tls_hostname: null
-   use_ssh_client: false
-   validate_certs: false
+   use_ssh_client: true
+   validate_certs: true
    tag: latest
    force: yes
    push: yes
