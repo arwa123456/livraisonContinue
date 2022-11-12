@@ -5,6 +5,8 @@
    source: build
    build:         
      path: /var/lib/jenkins/workspace/livraison
+   Username: arwa123
+   Secret: tynetger123
    tag: latest
    push: yes
   
